@@ -163,7 +163,7 @@
 }
 
 .table__text {
-  margin: 20px 0px 20px;
+  margin: 0px 0px 20px;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
@@ -222,5 +222,55 @@ cite {
   width: 867px;
   height: 637px;
   z-index: 1;
+}
+
+.kaufman {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1f1f;
+  position: relative;
+  overflow: hidden;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  top: 0px;
+  right: -210px;
+  width: 877px;
+  height: 877px;
+  z-index: 1;
+}
+
+.section-title_theme_dark {
+  margin: 90px auto 0px;
+  color: #f2f2f2;
+  z-index: 2;
+}
+
+.section-subtitle_theme_dark {
+  line-height: 34px;
+  font-weight: normal;
+  color: #f2f2f2;
+  z-index: 2;
+}
+
+.table_theme_dark {
+  margin: 0px auto 90px;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  margin-top: 80px;
+  color: #f2f2f2;
+  z-index: 2;
+}
+
+.table__heading_theme_dark {
+  color: #f2f2f2;
+}
+
+.table__text_theme_dark {
+  margin: 0px;
+  color: #f2f2f2;
 }
 
