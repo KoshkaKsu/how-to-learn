@@ -39,7 +39,7 @@
   margin: 0px;
 }
 
-.header__link {
+.header__subtitle-link {
   text-decoration: none;
   color: #2f80ed;
 }
@@ -53,7 +53,6 @@
   z-index: 1;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -176,10 +175,52 @@ cite {
   line-height: 1.2;
   font-style: normal;
 }
-/* и элемента с модификатором вида ключ-значение
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-} */
+
+.feynman {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 790px;
+  background-color: #f2f2f2;
+}
+
+.feynman__title {
+  width: 648px;
+  text-align: center;
+  margin: 100px auto 0px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.feynman__subtitle {
+  text-align: center;
+  margin: 70px auto 0px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 2;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  text-decoration: none;
+  color: #2f80ed;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 2;
+}
+
+.feynman img {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 867px;
+  height: 637px;
+  z-index: 1;
+}
+
